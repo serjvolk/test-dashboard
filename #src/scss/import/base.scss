@@ -1,0 +1,68 @@
+///////////////////// ТЕГИ: Default ///////////////////////
+
+body{
+	color: $black;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: -0.14px;
+	background: #FAFBFF;
+	a{
+		color: inherit;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+	button{
+		font-family: inherit;
+		font-size: inherit;
+		line-height: inherit;
+	}
+}
+
+svg{
+	&.w-24{
+		flex: 0 0 24px;
+		width: 24px;
+		height: 24px;
+		display: block;
+	}
+}
+
+img, video{
+	object-fit: cover;
+}
+
+
+
+///////////////// MARGIN, PADDING /////////////////////////
+
+.mt-7{
+	margin-top: 7px;
+}
+
+//////////////// COLOR, FILL, BACKGROUND //////////////////
+
+.white{color: $white;}
+.black{color: #000;}
+.gray-100{color: #757575;}
+.gray-200{color: #B5B7C0;}
+.darkGray{color: $darkGray;}
+.green{color: $green;}
+
+
+.fw-400{
+	font-weight: 400;
+}
+
+///////////////////////// FLEX ////////////////////////////
+
+.d-flex{display: flex;}
+
+.f-aic{
+	display: flex;
+	align-items: center;
+}
+
